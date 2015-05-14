@@ -1,6 +1,6 @@
 ## Setting up webpack on Windows
 
-#####1. 
+##### Step 1. 
 Open Command Prompt app and check if path includes node by running the command:
 
         $ node
@@ -20,7 +20,7 @@ or
         $ echo %PATH%
 
 
-#####2.
+##### Step 2.
 Go the the project folder:
 
         $ cd folder/to/project
@@ -38,12 +38,12 @@ type 'help' for help,
 also, list of common commands in cmd app is available here - http://commandwindows.com/command3.htm
 Using environment variables with Cmd.exe here - http://commandwindows.com/command3.htm)
 
-3.
+##### Step 3.
 
         $ npm install
 This will install all project dependencies (modules) declared in package.json file under 'node_modules' in the current project folder.
 
-4. Compiling and building:
+##### Step 4. Compiling and building:
 
         $ %cd%\node_modules\.bin\webpack.cmd
 This will compile the code with webpack in the current directory.
@@ -73,7 +73,8 @@ go to - http://webpack.github.io/docs/installation.html
 
 
 ## How to attach source map to ApnApi.js while debugging on production site (Mac & Win):
-1.We don't want to ship our product together with a source map (we want to be very confidential,
+##### Step 1.
+We don't want to ship our product together with a source map (we want to be very confidential,
 by keeping ApnAPI.js minified/encrypted), but we want to debug our minified ApnAPI.js code with a source map.
 Chrome dev-tools allow to append a source map file to any .js file from URL only (they don't support loading it from a local disc).
 So we need to run a web server (that was already installed from dev dependencies in package.json):
@@ -92,12 +93,12 @@ Instead of - http://localhost:8080/webpack-dev-server/
 use - http://127.0.0.1:8080/webpack-dev-server/
 For more information about webpack-dev-server: http://webpack.github.io/docs/tutorials/getting-started/#development-server
 
-2.
+##### Step 2.
 Now we can access a source map file via URL:
     
         http://127.0.0.1:8080/webpack-dev-server/dist/maps/ApnAPI_source.map
 
-3.
+##### Step 3.
 Then right click in chrome dev-tools at the minified ApnAPI.js file in the sources tab of chrome dev-tools,
 choose the option 'Add Source Map...' and enter a proper URL.
 
