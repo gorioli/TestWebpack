@@ -64,7 +64,7 @@ so remove manually the following line in the end of the minified file (ApnAPI.js
         
         //# sourceMappingURL=/path/to/file.js.map
 For more information about source map:
-https://developer.chrome.com/devtools/docs/javascript-debugging#source-maps
+https://developer.chrome.com/devtools/docs/javascript-debugging#source-maps 
 
 ## Setting up webpack on Mac:
 go to - http://webpack.github.io/docs/installation.html
