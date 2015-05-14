@@ -27,18 +27,18 @@ Go the the project folder:
 
         $ cd folder/to/project
 Notes:
-to see the content of the folder ('ls' on mac), run:
+See the content of the folder ('ls' on mac), run:
         
         $ dir
-to print working directory ('pwd' on Mac)
+Print working directory ('pwd' on Mac)
 
         $ cd
 or
 
         $ echo %CD%
-type 'help' for help,
-also, list of common commands in cmd app is available [here](http://commandwindows.com/command3.htm)
-Using environment variables with Cmd.exe [here](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds_shelloverview.mspx?mfr=true)
+Type 'help' for help.
+Also, list of common commands in cmd app is available [here](http://commandwindows.com/command3.htm).
+Using environment variables with Cmd.exe [here](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds_shelloverview.mspx?mfr=true).
 
 ##### Step 3.
 ---------
