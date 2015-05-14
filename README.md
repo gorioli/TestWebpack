@@ -122,14 +122,11 @@ choose the option 'Add Source Map...' and enter a proper URL.
 
 =============
 ## Some Links:
--   To learn more about webpack follow all the steps in a short tutorial:
+* To learn more about webpack follow all the steps in a short tutorial:
 http://webpack.github.io/docs/tutorials/getting-started
-
-- Another tutorial:
+* Another tutorial:
 https://web-design-weekly.com/2014/09/24/diving-webpack
-
-http://tftf.ru/stati/javascript/webpack
-
+* http://tftf.ru/stati/javascript/webpack
 * Stylesheets:
 http://webpack.github.io/docs/stylesheets.html
 * This file was written with [markdown syntax](https://guides.github.com/features/mastering-markdown/).
