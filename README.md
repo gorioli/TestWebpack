@@ -1,5 +1,5 @@
-## Setting up webpack on Windows
 =========
+## Setting up webpack on Windows
 
 ##### Step 1. 
 ---------
@@ -82,8 +82,9 @@ For production code we need to remove the reference to the source map file, so
 For more information about source map:
 https://developer.chrome.com/devtools/docs/javascript-debugging#source-maps 
 
-
+===========
 ## How to attach source map to ApnApi.js while debugging on production site (Mac & Win):
+
 ##### Step 1.
 ------------
 We don't want to ship our product together with a source map (we want to be very confidential,
