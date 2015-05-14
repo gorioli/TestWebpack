@@ -1,6 +1,7 @@
 ## Setting up webpack on Windows
 
-1. Open Command Prompt app and check if path includes node by running the command:
+#####1. 
+Open Command Prompt app and check if path includes node by running the command:
 
         $ node
 If you don't have it, install from - https://nodejs.org/.
@@ -19,7 +20,8 @@ or
         $ echo %PATH%
 
 
-2. Go the the project folder:
+#####2.
+Go the the project folder:
 
         $ cd folder/to/project
 Notes:
@@ -75,6 +77,7 @@ go to - http://webpack.github.io/docs/installation.html
 by keeping ApnAPI.js minified/encrypted), but we want to debug our minified ApnAPI.js code with a source map.
 Chrome dev-tools allow to append a source map file to any .js file from URL only (they don't support loading it from a local disc).
 So we need to run a web server (that was already installed from dev dependencies in package.json):
+
 Win:
 
         $ %bin%\webpack-dev-server.cmd
