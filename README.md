@@ -135,4 +135,4 @@ http://webpack.github.io/docs/stylesheets.html
 * This file was written with [markdown syntax](https://guides.github.com/features/mastering-markdown/).
 
 
-_This README is using [markdown syntax](https://guides.github.com/features/mastering-markdown/)._
+_(This README was created with [markdown syntax](https://guides.github.com/features/mastering-markdown/))_
