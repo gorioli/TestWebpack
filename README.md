@@ -44,7 +44,7 @@ Using environment variables with Cmd.exe [here](http://www.microsoft.com/resourc
 ---------
 
         $ npm install
-This will install all project dependencies (modules) declared in package.json file under 'node_modules' in the current project folder.
+This will install all project dependencies (modules) declared in package.json file under node_modules folder in the current project folder.
 
 ##### Step 4. Compiling and building:
 ----------
