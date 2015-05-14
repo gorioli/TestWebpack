@@ -71,7 +71,7 @@ go to - http://webpack.github.io/docs/installation.html
 
 ===============
 
-The command _%bin%\webpack.cm_ (__Win__) or _webpack_ (__Mac__) will compile the source code, 
+The command _'%bin%\webpack.cm'_ (__Win__) or _<webpack>_ (__Mac__) will compile the source code, 
 then build ApnAPI.js file and create a source map file - 'dist/maps/ApnAPI_source.map'.
 For production code we need to remove the reference to the source map file, so 
 ###### remove manually the following line in the end of the minified file (ApnAPI.js):
