@@ -1,4 +1,4 @@
-=========
+
 ## Setting up webpack on Windows
 
 ##### Step 1. 
