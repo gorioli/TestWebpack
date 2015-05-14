@@ -1,6 +1,7 @@
 ## Setting up webpack on Windows
 
 ##### Step 1. 
+---------
 Open Command Prompt app and check if path includes node by running the command:
 
         $ node
@@ -21,6 +22,7 @@ or
 
 
 ##### Step 2.
+---------
 Go the the project folder:
 
         $ cd folder/to/project
@@ -39,11 +41,13 @@ also, list of common commands in cmd app is available here - http://commandwindo
 Using environment variables with Cmd.exe here - http://commandwindows.com/command3.htm)
 
 ##### Step 3.
+---------
 
         $ npm install
 This will install all project dependencies (modules) declared in package.json file under 'node_modules' in the current project folder.
 
 ##### Step 4. Compiling and building:
+----------
 
         $ %cd%\node_modules\.bin\webpack.cmd
 This will compile the code with webpack in the current directory.
@@ -70,6 +74,8 @@ https://developer.chrome.com/devtools/docs/javascript-debugging#source-maps
 
 ## Setting up webpack on Mac:
 go to - http://webpack.github.io/docs/installation.html
+
+===============
 
 
 ## How to attach source map to ApnApi.js while debugging on production site (Mac & Win):
