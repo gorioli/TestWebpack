@@ -68,7 +68,8 @@ or automatically recompile with webpack after every change with '--watch':
 
 
 
-=============== ## Setting up webpack on Mac:
+=============== 
+## Setting up webpack on Mac:
 go to - http://webpack.github.io/docs/installation.html
 
 -------------
