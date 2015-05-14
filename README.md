@@ -37,10 +37,8 @@ or
 
         $ echo %CD%
 type 'help' for help,
-also, list of common commands in cmd app is available here - 
-http://commandwindows.com/command3.htm
-Using environment variables with Cmd.exe here - 
-http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds_shelloverview.mspx?mfr=true
+also, list of common commands in cmd app is available [here](http://commandwindows.com/command3.htm)
+Using environment variables with Cmd.exe [here](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds_shelloverview.mspx?mfr=true)
 
 ##### Step 3.
 ---------
