@@ -131,4 +131,5 @@ https://web-design-weekly.com/2014/09/24/diving-webpack
 http://webpack.github.io/docs/stylesheets.html
 * This file was written with [markdown syntax](https://guides.github.com/features/mastering-markdown/).
 
-_This README is using [markdown syntax](https://guides.github.com/features/mastering-markdown/)_
+
+_This README is using [markdown syntax](https://guides.github.com/features/mastering-markdown/)._
