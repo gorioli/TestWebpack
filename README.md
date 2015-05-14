@@ -86,7 +86,8 @@ Mac:
 
         $ $(npm bin)/webpack-dev-server
 Independent of what your working directory is, you can get the path of locally installed binaries with
-npm bin
+npm bin.
+
 _Notes:_
 If webpack-dev-server is not running in the browser, try:
 Instead of - http://localhost:8080/webpack-dev-server/
