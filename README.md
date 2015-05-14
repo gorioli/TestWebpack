@@ -1,7 +1,7 @@
 
 ## Setting up webpack on Windows
 
-##### Step 1. 
+##### Step 1
 ---------
 Open Command Prompt app and check if path includes node by running the command:
 
@@ -22,7 +22,7 @@ or
         $ echo %PATH%
 
 
-##### Step 2.
+##### Step 2
 ---------
 Go the the project folder:
 
@@ -43,13 +43,13 @@ Also, list of common commands in cmd app is available [here](http://commandwindo
 
 Using environment variables with Cmd.exe [here](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds_shelloverview.mspx?mfr=true).
 
-##### Step 3.
+##### Step 3
 ---------
 
         $ npm install
 This will install all project dependencies (modules) declared in package.json file under _node_modules_ folder in the current project folder.
 
-##### Step 4. Compiling and building:
+##### Step 4: Compiling and building
 ----------
 
         $ %cd%\node_modules\.bin\webpack.cmd
@@ -85,7 +85,7 @@ https://developer.chrome.com/devtools/docs/javascript-debugging#source-maps
 ===========
 ## How to attach source map to ApnApi.js while debugging on production site (Mac & Win):
 
-##### Step 1.
+##### Step 1
 ------------
 We don't want to ship our product together with a source map (we want to be very confidential,
 by keeping ApnAPI.js minified, sort of encrypted), but we want to debug our minified ApnAPI.js code with a source map.
@@ -111,13 +111,13 @@ use - http://127.0.0.1:8080/webpack-dev-server/
 
 For more information about webpack-dev-server: http://webpack.github.io/docs/tutorials/getting-started/#development-server
 
-##### Step 2.
+##### Step 2
 ------------
 Now we can access a source map file via URL:
 
         http://127.0.0.1:8080/webpack-dev-server/dist/maps/ApnAPI_source.map
 
-##### Step 3.
+##### Step 3
 ------------
 Then right click in chrome dev-tools at the minified ApnAPI.js file in the sources tab of chrome dev-tools,
 choose the option 'Add Source Map...' and enter a proper URL.
