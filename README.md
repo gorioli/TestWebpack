@@ -1,11 +1,11 @@
 ## Setting up webpack on Windows
 
 1. Open Command Prompt app and check if path includes node by running the command:
-        $ node
+    $ node
 If you don't have it, install from - https://nodejs.org/.
 Try to run node again.
 If node is not recognised, then include it into your path by running:
-        $ SET PATH=C:\Program Files\Nodejs;%PATH%
+    $ SET PATH=C:\Program Files\Nodejs;%PATH%
 Then check again if you have node. 
 Notes:
 To quit node, press ctl+c twice.
