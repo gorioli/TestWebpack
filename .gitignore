@@ -1,0 +1,39 @@
+# vim editing
+*.swp
+.tern-port
+.DS_Store
+
+# node modules
+node_modules
+bower_components
+
+# sublime:
+*.sublime*
+.build*
+
+# webstorm:
+.idea/
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+dist/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Others
+/assets
+/.project
+/.classpath
+/.metadata
