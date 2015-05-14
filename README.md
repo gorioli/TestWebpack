@@ -1,48 +1,48 @@
 ## Setting up webpack on Windows
 
 1. Open Command Prompt app and check if path includes node by running the command:
-    $ node
+        $ node
 If you don't have it, install from - https://nodejs.org/.
 Try to run node again.
 If node is not recognised, then include it into your path by running:
-    $ SET PATH=C:\Program Files\Nodejs;%PATH%
+        $ SET PATH=C:\Program Files\Nodejs;%PATH%
 Then check again if you have node. 
 Notes:
 To quit node, press ctl+c twice.
 Commands that prints PATH:
-    $ path
+        $ path
 or 
-    $ echo %PATH% 
+        $ echo %PATH% 
 
  
 2. Go the the project folder:
-    $ cd folder/to/project
+        $ cd folder/to/project
 Notes:
 to see the content of the folder ('ls' on mac), run:
-    $ dir
+        $ dir
 to print working directory ('pwd' on Mac)
-    $ cd
+        $ cd
 or
-    $ echo %CD%
+        $ echo %CD%
 type 'help' for help, 
 also, list of common commands in cmd app is available here - http://commandwindows.com/command3.htm
 Using environment variables with Cmd.exe here - http://commandwindows.com/command3.htm)
 
 3. 
-    $ npm install
+        $ npm install
 This will install all project dependencies (modules) declared in package.json file under 'node_modules' in the current project folder.
  
 4. Compiling and building:
-    $ %cd%\node_modules\.bin\webpack.cmd
+        $ %cd%\node_modules\.bin\webpack.cmd
 This will compile the code with webpack in the current directory.
 The 'dist' folder and its content will be created, the project is ready for debugging or production!
 Notes:
 set alias:
-    $ set "bin=%cd%\node_modules\.bin"
+        $ set "bin=%cd%\node_modules\.bin"
 then run webpack by:
-    $ %bin%\webpack.cmd
+        $ %bin%\webpack.cmd
 or automatically recompile with webpack after every change with '--watch':
-    $ %bin%\webpack.cmd --watch
+        $ %bin%\webpack.cmd --watch
 
 
 The command '%webpack%' will compile the source code, then build ApnAPI.js file and create a source map file - 'dist/maps/ApnAPI_source.map'. 
