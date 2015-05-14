@@ -97,16 +97,18 @@ use - http://127.0.0.1:8080/webpack-dev-server/
 For more information about webpack-dev-server: http://webpack.github.io/docs/tutorials/getting-started/#development-server
 
 ##### Step 2.
-============
+------------
 Now we can access a source map file via URL:
     
         http://127.0.0.1:8080/webpack-dev-server/dist/maps/ApnAPI_source.map
 
 ##### Step 3.
+------------
 Then right click in chrome dev-tools at the minified ApnAPI.js file in the sources tab of chrome dev-tools,
 choose the option 'Add Source Map...' and enter a proper URL.
 
 
+=============
 ## Some Links:
 *To learn more about webpack follow all the steps in a short tutorial:
 http://webpack.github.io/docs/tutorials/getting-started
