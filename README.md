@@ -28,7 +28,6 @@ To quit node, press ctl+c twice.
 ##### Step 2
 ---------
 Go the the project folder:
-__Win/Mac:__
 
         $ cd folder/to/project
 Commands                     | Win   | Mac
@@ -39,7 +38,7 @@ Print working directory      |   $ cd   <br/>  $ echo %CD%    |       $pwd
   
 Type 'help' for help.
 
-Also, list of common commands in cmd app is available [here](http://commandwindows.com/command3.htm).
+Also, list of common commands in cmd.exe available [here](http://commandwindows.com/command3.htm).
 
 Using environment variables with Cmd.exe [here](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds_shelloverview.mspx?mfr=true).
 
@@ -51,12 +50,15 @@ This will install all project dependencies (modules) declared in package.json fi
 
 ##### Step 4: Compiling and building
 ----------
+Commands                     | Win   | Mac
+----------------------------- | ------- | ----------------------
+Compile            |  $ %cd%\node_modules\.bin\webpack.cmd <br/> |       $(npm bin)/webpack
+                |    %bin%\webpack.cmd    (if alias 'bin' was set) |
 
-        $ %cd%\node_modules\.bin\webpack.cmd
 This will compile the code with webpack in the current directory.
-The 'dist' folder and its content will be created, the project is ready for debugging or production!
+The 'dist' folder and its content will be created.
 Notes:
-set alias:
+set alias in __Win__:
 
         $ set "bin=%cd%\node_modules\.bin"
 then run webpack by:
