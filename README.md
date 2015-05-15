@@ -9,13 +9,14 @@ Open Command Prompt app and check if path includes node by running the command:
 If you don't have it, install from - https://nodejs.org/.
 Try to run node again.
 If node is not recognised, then include it into your path by running:
+
 __Win__:
 * Commands that print PATH and set a new one:
 
         $ path
         $ echo %PATH%
         $ SET PATH=C:\Program Files\Nodejs;%PATH%
-__Mac__ usually updates path automatically. If not, commN FOR checking the path:
+__Mac__ usually updates path automatically while Node installation. If not, command for checking the path:
 
         * echo $PATH
 
