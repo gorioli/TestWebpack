@@ -32,7 +32,7 @@ __Win/Mac:__
 
         $ cd folder/to/project
 Commands                     | Win   | Mac
-------------------------------------------------------------
+----------------------------- | ------- | ----------------------
 See the content of the folder|          $ dir   |       $ ls
 Print working directory      |   $ cd   (or)  $ echo %CD%    |       $pwd
 
