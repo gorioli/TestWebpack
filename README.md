@@ -16,9 +16,10 @@ __Win__:
         $ path
         $ echo %PATH%
         $ SET PATH=C:\Program Files\Nodejs;%PATH%
+
 __Mac__ usually updates path automatically while Node installation. If not, command for checking the path:
 
-        * echo $PATH
+        echo $PATH
 
 Then check again if you have node.
 
