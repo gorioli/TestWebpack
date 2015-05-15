@@ -11,7 +11,7 @@ Try to run node again.
 If node is not recognised, then include it into your path by running:
 
 __Win__:
-* Commands that print PATH and set a new one:
+Commands that print PATH and set a new one:
 
         $ path
         $ echo %PATH%
@@ -48,7 +48,7 @@ Using environment variables with Cmd.exe [here](http://www.microsoft.com/resourc
 ---------
 
         $ npm install
-This will install all project dependencies (modules) declared in package.json file under _node_modules_ folder in the current project folder.
+This will install all project dependencies (modules) under _node_modules_ folder which were declared in package.json file.
 
 ##### Step 4: Compiling and building
 ----------
@@ -134,6 +134,3 @@ https://web-design-weekly.com/2014/09/24/diving-webpack
 * Stylesheets:
 http://webpack.github.io/docs/stylesheets.html
 * This file was written with [markdown syntax](https://guides.github.com/features/mastering-markdown/).
-
-
-_(This README was created with [markdown syntax](https://guides.github.com/features/mastering-markdown/))_
