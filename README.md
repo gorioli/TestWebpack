@@ -52,8 +52,7 @@ This will install all project dependencies (modules) declared in package.json fi
 ----------
 Commands                     | Win   | Mac
 ----------------------------- | ------- | ----------------------
-Compile            |  $ %cd%\node_modules\.bin\webpack.cmd <br/> |     $ $(npm bin)/webpack
-                |   $ %bin%\webpack.cmd    (if alias 'bin' was set) |
+Compile            |  $ %cd%\node_modules\.bin\webpack.cmd <br/> $ %bin%\webpack.cmd    (if alias 'bin' was set) |     $ $(npm bin)/webpack
 
 This will compile the code with webpack in the current directory.
 The 'dist' folder and its content will be created.
