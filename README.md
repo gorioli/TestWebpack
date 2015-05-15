@@ -9,34 +9,34 @@ Open Command Prompt app and check if path includes node by running the command:
 If you don't have it, install from - https://nodejs.org/.
 Try to run node again.
 If node is not recognised, then include it into your path by running:
-
-        $ SET PATH=C:\Program Files\Nodejs;%PATH%
-Then check again if you have node.
-Notes:
-To quit node, press ctl+c twice.
-Commands that prints PATH:
+__Win__:
+* Commands that print PATH and set a new one:
 
         $ path
-or
-
         $ echo %PATH%
+        $ SET PATH=C:\Program Files\Nodejs;%PATH%
+__Mac__ usually updates path automatically. If not, commN FOR checking the path:
+
+        * echo $PATH
+
+Then check again if you have node.
+
+To quit node, press ctl+c twice.
+
 
 
 ##### Step 2
 ---------
 Go the the project folder:
+__Win/Mac:__
 
         $ cd folder/to/project
-Notes:
-See the content of the folder ('ls' on mac), run:
-        
-        $ dir
-Print working directory ('pwd' on Mac)
+Commands                     | Win   | Mac
+------------------------------------------------------------
+See the content of the folder|          $ dir   |       $ ls
+Print working directory      |   $ cd   (or)  $ echo %CD%    |       $pwd
 
-        $ cd
-or
-
-        $ echo %CD%
+  
 Type 'help' for help.
 
 Also, list of common commands in cmd app is available [here](http://commandwindows.com/command3.htm).
@@ -73,7 +73,10 @@ or automatically recompile with webpack after every change with '--watch':
 go to - http://webpack.github.io/docs/installation.html
 
 -------------
-The command __%bin%\webpack.cm__ (__Win__) or __webpack__ (__Mac__) will compile the source code, 
+The commands:
+* __'%bin%\webpack.cm'__ (__Win__) 
+* __'webpack'__ if installed globally or __'$(npm bin)webpack'__ if installed locally (__Mac__) 
+will compile the source code, 
 then build ApnAPI.js file and create a source map file - 'dist/maps/ApnAPI_source.map'.
 For production code we need to remove the reference to the source map file, so 
 ###### remove manually the following line at the end of the minified file (ApnAPI.js):
