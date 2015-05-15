@@ -52,8 +52,8 @@ This will install all project dependencies (modules) declared in package.json fi
 ----------
 Commands                     | Win   | Mac
 ----------------------------- | ------- | ----------------------
-Compile            |  $ %cd%\node_modules\.bin\webpack.cmd <br/> |       $(npm bin)/webpack
-                |    %bin%\webpack.cmd    (if alias 'bin' was set) |
+Compile            |  $ %cd%\node_modules\.bin\webpack.cmd <br/> |     $ $(npm bin)/webpack
+                |   $ %bin%\webpack.cmd    (if alias 'bin' was set) |
 
 This will compile the code with webpack in the current directory.
 The 'dist' folder and its content will be created.
@@ -61,23 +61,19 @@ Notes:
 set alias in __Win__:
 
         $ set "bin=%cd%\node_modules\.bin"
-then run webpack by:
-
-        $ %bin%\webpack.cmd
-or automatically recompile with webpack after every change with '--watch':
+Automatically recompile with webpack after every change with '--watch':
         
         $ %bin%\webpack.cmd --watch
 
 
 
-=============== 
-## Setting up webpack on Mac:
+For more information about Webpack installation:
 go to - http://webpack.github.io/docs/installation.html
 
 -------------
 The commands:
 * __'%bin%\webpack.cm'__ (__Win__) 
-* __'webpack'__ if installed globally or __'$(npm bin)webpack'__ if installed locally (__Mac__) 
+* __'webpack'__ if installed globally or __'$(npm bin)/webpack'__ if installed locally (__Mac__) 
 will compile the source code, 
 then build ApnAPI.js file and create a source map file - 'dist/maps/ApnAPI_source.map'.
 For production code we need to remove the reference to the source map file, so 
