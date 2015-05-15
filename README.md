@@ -34,7 +34,7 @@ __Win/Mac:__
 Commands                     | Win   | Mac
 ----------------------------- | ------- | ----------------------
 See the content of the folder|          $ dir   |       $ ls
-Print working directory      |   $ cd   (or)  $ echo %CD%    |       $pwd
+Print working directory      |   $ cd   <br/>  $ echo %CD%    |       $pwd
 
   
 Type 'help' for help.
